@@ -19,11 +19,13 @@ textarea:focus, input:focus {
 }
 
 a {
-    font-size: .8rem; /* proporcional a telas*/
+    font-size: 1rem; /* proporcional a telas*/
+    text-decoration: none;
 }
 
 a:hover {
-    color: goldenrod;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 /* login */
@@ -45,7 +47,6 @@ a:hover {
 
 form {
     margin-top:30px;
-    margin-bottom: 40px;
 }
 
 label, input {
@@ -93,7 +94,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(6, 6, 138);
+    background-color: rgb(32, 32, 100);
     transition: .4s;
 }
 
@@ -119,10 +120,4 @@ input[type="submit"]:hover {
 
 .fa-linkedin {
     background-color: #0077B5;
-}
-
-/* registrar */
-
-#registrar {
-    margin-bottom: 10px;
 }
